@@ -5,7 +5,7 @@ export default class HornedBeast extends Component {
     return (
       <div>
           <h2>{this.props.title}</h2>
-          <img src={this.props.imgUrl} alt={this.props.keyword}></img>
+          <img src={this.props.imgUrl}  alt={this.props.keyword}></img>
           <p>{this.props.description}</p>
       </div>
     )

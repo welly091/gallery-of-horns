@@ -7,7 +7,7 @@ export default class Main extends Component {
     return (
       <div>
           {
-            data.map(item =>{
+            data.map(item => { 
               return <HornedBeast key={item._id} title={item.title} imgUrl={item.image_url} description={item.description} alt={item.keyword}/>
             })
           }
