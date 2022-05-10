@@ -4,7 +4,7 @@ export default class Footer extends Component {
   render() {
     return (
       <div>
-          Power by Yu-Wei Hsieh
+          Power by Yu-Wei Hsieh 
       </div>
     )
   }
