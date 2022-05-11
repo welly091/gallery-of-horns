@@ -1,0 +1,6 @@
+.beasts{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    justify-content: flex-start;
+}

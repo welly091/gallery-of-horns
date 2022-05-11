@@ -1,0 +1,10 @@
+.beast{
+    margin: 0.4vw;
+    width: 200px;
+    height: 460px;
+    background-color: black;
+    color:beige;
+}
+img:hover{
+    cursor: pointer;
+}
