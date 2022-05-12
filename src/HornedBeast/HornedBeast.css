@@ -5,6 +5,9 @@
     background-color: black;
     color:beige;
 }
-img:hover{
+.beastImg:hover{
     cursor: pointer;
+}
+.likeButton{
+    margin: 5px;;
 }
