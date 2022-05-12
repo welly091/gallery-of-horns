@@ -6,7 +6,7 @@ export default class Header extends Component {
     return (
       <div className="container">
           <h1>Welcome to Gallery of Horns! </h1>
-          <div className="voteText">Vote For Your Favortie by Clicking the Picture!</div>
+          <div className="voteText">Vote For Your Favortie!</div>
       </div>
     )
   }
