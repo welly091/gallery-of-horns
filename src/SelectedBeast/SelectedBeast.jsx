@@ -5,12 +5,10 @@ import './SelectedBeast.css'
 export default class SelectedBeast extends Component {
   render() {
     return (
-      <div onClick={this.props.closeModal}>
-        <Modal show={this.props.isModalOpen} className="modal" >
-          <img src={this.props.imgUrl} alt={this.props.title}></img>
-          <div>{this.props.description}</div>
-        </Modal>
-      </div>
+      <Modal show={this.props.isModalOpen} onHide={this.props.closeModal}className="modal" >
+        <img src={this.props.imgUrl} alt={this.props.title}></img>
+        <div>{this.props.description}</div>
+      </Modal>
     )
   }
 }

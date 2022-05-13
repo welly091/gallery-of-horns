@@ -4,12 +4,12 @@ import './SearchBar.css'
 
 export default class SearchBar extends Component {
 
-    constructor(props){
-        super(props)
-        this.state={
-            searchValue: ""
-        }
-    }
+  constructor(props){
+      super(props)
+      this.state={
+          searchValue: ""
+      }
+  }
   
   findBeasts = (e) =>{
     this.setState({searchValue: e.target.value})
@@ -20,9 +20,9 @@ export default class SearchBar extends Component {
       e.preventDefault()
   }
 
-  resetValue = (e) =>{
+  resetValue = () =>{
+    this.setState({searchValue: ""})
     this.props.updateSearchTitle("")
-    e.preventDefault()
   }
   
   render() {
