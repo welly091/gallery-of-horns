@@ -9,3 +9,9 @@ Estimate of time needed to complete: 2 hours
 Start time: 1:25pm PST
 Finish time: 6:pm PST
 Actual time needed to complete: 4 hours and 35 minutes
+
+Number and name of feature: Lab Class 4
+Estimate of time needed to complete: 1 hours
+Start time: 2:30pm PST
+Finish time: 5:00pm PST
+Actual time needed to complete: 2 hours and 30 minutes
